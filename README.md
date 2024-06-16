@@ -78,7 +78,7 @@ The project implements several models to predict emotions:
 
 ### Visual Results
 
-- [ROC Curve Comparison](pics/comparison)
+- [ROC Curve Comparison](pics/comparison.png)
 - [Accuracy Bar Chart Comparison](pics/comparison_bar.png)
 
 ## CLI Tool
