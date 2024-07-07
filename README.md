@@ -136,7 +136,7 @@ Explore the Emotion Classifier app hosted on Streamlit Cloud [here](https://part
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/yourusername/emotion-classification.git
+    git clone https://github.com/parthrastogicoder/NLP_EMOTION_CLASSIFIER.git
     cd emotion-classification
     ```
 
@@ -161,6 +161,3 @@ Explore the Emotion Classifier app hosted on Streamlit Cloud [here](https://part
 
 For any inquiries or suggestions regarding this project, please contact me at `parth22352@iiitd.ac.in`.
 
----
-
-This README provides a comprehensive guide to understanding and using your NLP Emotion Classification project, covering dataset details, preprocessing steps, model performance, CLI tool usage, Streamlit web application features, setup instructions, and contact information. Adjust paths, URLs, and details as per your project specifics.
