@@ -70,6 +70,9 @@ The project implements several models to predict emotions:
    - Multi-layer perceptron with Leaky ReLU and Sigmoid activation functions
 
 ## Results
+### Visual Results
+
+- [Accuracy Bar Chart Comparison](pics/comparison_bar.png)
 
 ### Model Performance
 
