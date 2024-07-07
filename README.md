@@ -1,5 +1,5 @@
 
-# NLP Emotion Classification Project
+# NLP Emotion Classification Project [App](https://parthemotionclassifier.streamlit.app/)
 
 Welcome to the NLP Emotion Classification project! This project focuses on classifying text data into six distinct emotion categories using various machine learning models. Below you'll find detailed information on how to set up the project, use the provided CLI tool, understand the project's overall functionality and results, and explore the Streamlit web application.
 
