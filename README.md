@@ -1,7 +1,10 @@
+Certainly! Here's the updated README without the screenshots:
+
+---
 
 # NLP Emotion Classification Project
 
-Welcome to the NLP Emotion Classification project! This project focuses on classifying text data into six distinct emotion categories using various machine learning models. Below you'll find detailed information on how to set up the project, use the provided CLI tool, and understand the project's overall functionality and results.  To check out the code for training look at sample.ipynb
+Welcome to the NLP Emotion Classification project! This project focuses on classifying text data into six distinct emotion categories using various machine learning models. Below you'll find detailed information on how to set up the project, use the provided CLI tool, understand the project's overall functionality and results, and explore the Streamlit web application.
 
 ## Table of Contents
 1. [Project Overview](#project-overview)
@@ -14,7 +17,11 @@ Welcome to the NLP Emotion Classification project! This project focuses on class
     - [Functionality](#functionality)
     - [Sample Inputs and Outputs](#sample-inputs-and-outputs)
     - [Usage Instructions](#usage-instructions)
-7. [Setup and Installation](#setup-and-installation)
+7. [Streamlit Web Application](#streamlit-web-application)
+    - [Features](#features)
+    - [Usage](#usage)
+8. [Setup and Installation](#setup-and-installation)
+9. [Contact](#contact)
 
 ## Project Overview
 
@@ -76,11 +83,6 @@ The project implements several models to predict emotions:
 | XGBoost              | 0.8939   | 0.90      | 0.89   | 0.90     |
 | Neural Network       | 0.8866   | 0.89      | 0.89   | 0.89     |
 
-### Visual Results
-
-- [ROC Curve Comparison](pics/comparison.png)
-- [Accuracy Bar Chart Comparison](pics/comparison_bar.png)
-
 ## CLI Tool
 
 The CLI (Command-Line Interface) tool allows users to input a sentence and get an emotion prediction using trained machine learning models.
@@ -118,6 +120,18 @@ The tool interacts with the following models to predict emotions:
 3. The tool displays predictions from each model.
 4. Type `exit` to quit the tool.
 
+## Streamlit Web Application
+
+### Emotion Classifier App
+
+Explore the Emotion Classifier app hosted on Streamlit Cloud [here](https://parthemotionclassifier.streamlit.app/). This interactive web application allows users to input text and receive predictions for emotions such as sadness, joy, love, anger, fear, and surprise using machine learning models.
+
+#### Features:
+
+- **Input**: Enter a sentence to predict the corresponding emotions.
+- **Models Used**: Naive Bayes, Logistic Regression, and XGBoost.
+- **Visualization**: Displays predictions, model performance comparison, confusion matrices, class distributions, word clouds, and ROC curves.
+
 ## Setup and Installation
 
 1. **Clone the repository**:
@@ -128,20 +142,25 @@ The tool interacts with the following models to predict emotions:
 
 2. **Install dependencies**:
     ```bash
-    pip install (packages required)
+    pip install -r requirements.txt
     ```
 
-3. **Download the dataset** from [Kaggle](https://www.kaggle.com/datasets/nelgiriyewithana/emotions/data) 
+3. **Download the dataset** from [Kaggle](https://www.kaggle.com/datasets/nelgiriyewithana/emotions/data)
 
 4. **Run the CLI tool**:
     ```bash
     python cliapp.py
     ```
-5. **To train the model**: main file is sample.ipynb
 
+5. **Explore the Streamlit app**:
+    ```bash
+    streamlit run app.py
+    ```
 
 ## Contact
 
-For any questions or suggestions, feel free to contact me at `parth22352@iiitd.ac.in`.
+For any inquiries or suggestions regarding this project, please contact me at `parth22352@iiitd.ac.in`.
 
 ---
+
+This README provides a comprehensive guide to understanding and using your NLP Emotion Classification project, covering dataset details, preprocessing steps, model performance, CLI tool usage, Streamlit web application features, setup instructions, and contact information. Adjust paths, URLs, and details as per your project specifics.
