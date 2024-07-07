@@ -72,7 +72,7 @@ The project implements several models to predict emotions:
 ## Results
 ### Visual Results
 
-- [Accuracy Bar Chart Comparison](pics/comparison_bar.png)
+![Accuracy Bar Chart Comparison](pics/comparison_bar.png)
 
 ### Model Performance
 
