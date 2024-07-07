@@ -1,6 +1,3 @@
-Certainly! Here's the updated README without the screenshots:
-
----
 
 # NLP Emotion Classification Project
 
